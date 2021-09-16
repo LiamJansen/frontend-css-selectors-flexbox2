@@ -3,3 +3,54 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+.one  {
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+}
+
+.two  {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.three  {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: stretch;
+   width: 100%
+}
+
+.three ul { 
+   list-style-type: none;
+   margin: 0;
+   display: flex;
+   align-items: stretch;
+   justify-content: space-between;
+   flex-basis: 33%;
+}
+
+.four form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.four label {
+   display: flex;
+   flex-direction: column;
+}
+
+.five  {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.five article {
+   flex: 1 1 33%;
+}
